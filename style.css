@@ -1,0 +1,296 @@
+/*-- CSS Reset --*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+
+/*-- My code starts here --*/
+
+body { 
+    background-color: black;
+}
+
+ nav {
+  display: block;
+}
+
+.homebutton {
+   position: relative;
+ 
+}
+
+.fa-regular {
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+}
+
+
+p {
+   color: #FBF7F7;
+   text-align: center;
+   font-family: "schwarzkopf-old", sans-serif;
+   font-weight: 400;
+   font-size: 2.5rem;
+}
+
+
+/*univisted link*/
+a:link {
+   color: #FBF7F7;
+   text-decoration: none;
+   font-family: "schwarzkopf-old", sans-serif;
+   font-weight: 400;
+   font-size: 2.5rem;
+ }
+ 
+ /* visited link */
+a:visited {
+   color: #dedede;
+   text-decoration: none;
+   font-family: "schwarzkopf-old", sans-serif;
+   font-weight: 400;
+   font-size: 2.5rem;
+}
+
+/*mouse over link*/
+a:hover {
+   color:#6C6265; 
+   text-decoration: none;
+   font-family: "schwarzkopf-old", sans-serif;
+   font-weight: 400;
+   font-size: 2.5rem;
+}
+
+
+.box {
+   display: flex;
+   justify-content: center;
+}
+
+
+.homecontent {
+   max-width: 1000px;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+.homeimage img { 
+   max-width: 100%;
+   height: auto;
+   }
+
+
+
+.feetimage img  { 
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+    width: 1500px;
+   height: 1200px;
+   transition: filter 0.5s ease;
+   }
+
+   .feetimage:hover {
+      filter: brightness(1.5);
+   
+   }
+
+
+.headimage  { 
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   max-width: 100%;
+   height: auto;
+  
+   }
+
+.headimage img{
+   width: 1250px;
+   height: 1100px;
+   margin-top: 100px;
+   transition: filter 0.5s ease;
+  
+}
+
+.headimage:hover {
+   filter: brightness(1.5);
+
+}
+
+
+.handrightimage img{
+margin: 0 auto;
+display: flex;
+float: left;
+width: 1500px;
+height: 1200px;
+transition: filter 0.5s ease;
+}
+
+.handrightimage:hover {
+   filter: brightness(1.2);
+
+}
+
+.handleftimage img {
+   margin: 0 auto;
+   display: flex;
+   margin-top: 150px;
+   float: right;
+   justify-content: left;
+   width: 1400px;
+   height: 900px;
+   transition: filter 0.5s ease;
+}
+
+.handleftimage:hover {
+   filter: brightness(1.2);
+
+}
+
+
+.hometexthead p {
+  text-align: center;
+  
+}
+
+
+.hometexthandright {
+   display: flex;
+   height: 800px;
+   align-items: center;
+  
+}
+
+.hometexthandleft {
+   display: flex;
+   height: 800px;
+   align-items: center;
+}
+
+.hometextfeet {
+  justify-content: center;
+   
+}
+
+
+
+/* Second and Third Pages Code*/
+.gif{
+   margin: 0 auto;
+   align-content: center;
+   margin-top: 150px;
+   display: flex;
+   width: 650px;
+   height: 540px;
+
+   
+}
+.stageone, .stagetwo, .stagethree, .stagefour img{ 
+   margin: 0 auto;
+    display: flex;
+   justify-content: center;
+   width:1000px;
+   height: 800px; 
+   transition: 0.5s ease-in;
+
+}
+
+
+.stageone:hover{
+   filter: brightness(0.2);
+}
+
+.stagetwo:hover{
+   filter: brightness(0.2);
+}
+
+.stagethree:hover{
+   filter: brightness(0.2);
+}
+
+.stagefour:hover{
+   filter: brightness(0.2);
+}
+
+.finalstage {
+   display: flex;
+   margin: 0 auto;
+   width: 1000px;
+   height: 1250px;
+   
+  
+ 
+}
+
+p .lastscript{
+   transition: 0.5s ease;
+}
+
+.lastscript:hover{
+   filter: brightness(0.5);
+}
+
+.scriptnimg, .twoscriptnimg, .pagenimg, .pagenimgtwo, .pagenimgthree, .fpagenimg {
+  position: relative;
+  text-align: center;
+  color: #FBF7F7;
+   
+}
+
+.script, .scriptone, .scripttwo, .scriptthree, .finalscript {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.pageoneimg, .pagenimgtwo, .pagenimgthree, .finalpage img{
+   max-width: 100%;
+   height: auto;
+
+}
+
